@@ -21,10 +21,7 @@ const pageTitle = "My Astro Site";
 
 		<Footer />
 		<script>
-			document.querySelector('.hamburger').addEventListener('click', () => {
-				console.log('ici')
-				document.querySelector('.nav-links').classList.toggle('expanded');
-			});
+			import "../scripts/menu.js";
 		</script>
 	</body>
 </html>
